@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+/***Header***/
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li a {
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav img {
+    width: 60px;
+    height: 60px;
+    object-position: center;
+}
+
+.menu img {
+    padding-left: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
