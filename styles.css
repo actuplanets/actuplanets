@@ -1,12 +1,33 @@
 body {
-    background-color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+    font-size: 54px;
+}
+
+p {
+    font-size: 21px;
+    font-style: normal;
+}
+
+button {
+    font-size: 21px;
+    border-width: 0;
+    background-color: #E02626;
+    color: white;
+    padding: 15px;
 }
 
 /***Header***/
 
 header {
-    padding: 10px;
-    margin: 0 50px;
+    padding: 20px 50px;
+    background-color: black;
+    width: calc(100% - 100px);
 }
 
 nav ul {
@@ -22,7 +43,6 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 21px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -49,4 +69,90 @@ nav img {
     background-image: url(img/bannerspace.jpg);
     background-size: cover;
     height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner-content {
+    margin-left: 80px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: white;
+    font-size: 21px;
+}
+
+/* Section Actualités */
+
+.actualites {
+    background-color: white;
+}
+
+/* Section A propos */
+
+.a-propos {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+                      url(img/earthsurface.jpg);
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 550px;
+}
+
+.a-propos h2 {
+    color: white;
+}
+
+.a-propos-content {
+    margin-left: 12%;
+}
+
+/* Section Image du jour */
+
+.image-jour {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between
+}
+
+.image-jour img {
+    width: 700px;
+    margin-left: 12%;
+    object-fit: cover;
+}
+
+.image-jour-content {
+    text-align: end;
+    margin-right: 12%;
+}
+
+.image-jour-content button {
+    margin: 40px 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+footer img {
+    width: 50px;
+    height: 55px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
 }
