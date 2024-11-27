@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <img src="img/logo.png">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contexte.html">Contexte</a></li>
+                <li><a href="enjeux.html">Enjeux</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form action="https://formspree.io/f/mgvenlkg" method="POST">
+            <h3>Contactez notre chaîne de media !</h3>
+            <div id="div_form">
+                <div class="form-group">
+                    <label>
+                        <p>Qui êtes-vous ?<span class="orange">*</span></p>
+
+                        <input type="text" name="firstName" placeholder="Votre Prénom" required="">
+                    </label>
+                    <label>
+                        <input type="text" name="lastName" placeholder="Votre Nom" required="">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <p>Votre Email :<span class="orange">*</span></p>
+                        <input type="email" name="email" placeholder="Contact@gmail.com" required="">
+                    </label>
+                </div>
+                <div class="form-group">
+
+                    <label>
+                        <p>Votre numéro de Téléphone : (facultatif)</p>
+                        <input type="phone" name="phone" placeholder="0123456789">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <p>Votre Message :<span class="orange">*</span></p>
+                        <textarea name="message" placeholder="Votre Message" required=""></textarea>
+                    </label>
+                </div>
+                <!-- your other form fields go here -->
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <img src="img/logo.png">
+            <hr>
+            <div class="footer-link">
+                <a href="/sitemap.html">Plan du site</a>
+                <a href="contexte.html">Qui somme-nous ?</a>
+                <a href="actualites.html">Nos actualités</a>
+                <a href="enjeux.html">Les enjeux</a>
+                <a>Politique de confidentialité</a>
+                <a>FAQ</a>
+                <a>Accecibilités</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
