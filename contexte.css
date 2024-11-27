@@ -59,3 +59,66 @@
     width: 800px;
     text-align: end;
 }
+
+/* Section decouverte */
+
+.decouverte {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+                      url(img/greenland.jpg);
+    background-size: cover;
+    color: white;
+    height: auto;
+    padding: 100px 80px;
+    
+}
+
+.decouverte h2 {
+    color: white;
+    margin: 0;
+}
+
+.decouverte h3 {
+    color: white;
+    margin-bottom: 70px;
+}
+
+.decouverte p {
+    margin: 0 20px;
+}
+
+.decouverte span {
+    color: #E02626;
+}
+
+/* Section engagement */
+
+.engagement {
+    margin: 100px 80px;
+}
+
+.engagement p {
+    margin: 0 200px;
+    margin-bottom: 100px;
+}
+
+.engagement h2 {
+    text-align: center;
+}
+
+.engagement-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.engagement-content-icons {
+    text-align: center;
+    width: 500px;
+}
+
+.engagement-content-icons p {
+    margin: 0;
+}
+
+.engagement-content-icons img {
+    width: 70px;
+}
