@@ -1,0 +1,43 @@
+/* Section banner */
+
+.banner {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+                      url(img/bannerspace.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner-content {
+    margin-left: 80px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: white;
+    font-size: 21px;
+}
+
+/* Section presentation */
+
+.presentation {
+    margin: 100px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentation img {
+    width: 450px;
+}
+
+.presentation-content {
+    width: 800px;
+}
