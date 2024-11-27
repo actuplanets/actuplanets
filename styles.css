@@ -68,6 +68,7 @@ a {
     width: 700px;
     margin-left: 12%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .image-jour-content {
@@ -78,6 +79,9 @@ a {
 .image-jour-content button {
     margin: 40px 0;
 }
+
+
+/* Gris */
 
 .grid-container {
     margin: auto;
