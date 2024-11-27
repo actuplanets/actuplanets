@@ -1,0 +1,43 @@
+.banner {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+        url(img/bannerspace.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner-content {
+    margin-left: 80px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: white;
+    font-size: 21px;
+}
+
+h2 {
+    color: black;
+    font-size: 54px;
+}
+
+h3 {
+    color: black;
+    font-size: 32px;
+}
+
+p {
+    font-size: 21px;
+    font-style: normal;
+}
+
+section {
+    color: black;
+}
