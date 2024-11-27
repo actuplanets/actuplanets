@@ -4,6 +4,9 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 h2 {
     color: black;
@@ -25,7 +28,9 @@ button {
     border-width: 0;
     background-color: #E02626;
     color: white;
-    padding: 15px;
+    padding: 15px 30px;
+    margin: 20px 0;
+    border-radius: 5px;
 }
 
 
@@ -74,33 +79,36 @@ nav img {
 footer {
     background-color: black;
     color: white;
-    height: 260px;
+    height: auto;
+    padding: 25px 0;
 }
 
+
 footer img {
+    display: block;
     width: 65px;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer a {
     text-decoration: none;
     color: lightgray;
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .footer-link {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     margin-top: 20px;
     padding: 30px;
     margin-left: 20px;
 }
 
 hr {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 25px;
     color: lightgray;
 }

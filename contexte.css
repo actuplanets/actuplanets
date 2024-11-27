@@ -1,5 +1,14 @@
 /* Section banner */
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border-radius: 10px;
+}
+
 .banner {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
                       url(img/bannerspace.jpg);
