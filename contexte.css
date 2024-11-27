@@ -41,3 +41,21 @@
 .presentation-content {
     width: 800px;
 }
+
+/* Section planete habitable */
+
+.planete-habitable {
+    margin: 100px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planete-habitable img {
+    width: 600px;
+}
+
+.planete-habitable-content {
+    width: 800px;
+    text-align: end;
+}
