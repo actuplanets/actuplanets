@@ -6,80 +6,47 @@ a {
 /* Section banner */
 
 .banner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
         url(img/bannerspace.jpg);
     background-size: cover;
     height: 500px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
 }
 
-.banner-content {
-    margin-left: 80px;
+.b2seomds {
+    flex-direction: row;
+    color: black;
 }
 
-.banner h1 {
-    color: white;
-    font-size: 64px;
-    margin-bottom: 20px;
-}
-
-.banner p {
-    color: white;
-    font-size: 21px;
+.b2seomds img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 
 /* Section Actualités */
 
 .actualites {
+    align-items: start;
     background-color: white;
+    color: black;
 }
 
 /* Section A propos */
 
 .a-propos {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
-        url(img/earthsurface.jpg);
-    color: white;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     height: 550px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+        url(img/earthsurface.jpg);
+        text-wrap: balance;
 }
-
-.a-propos h2 {
-    color: white;
-}
-
-.a-propos-content {
-    margin-left: 12%;
-}
-
-/* Section Image du jour */
-
-.image-jour {
-    padding: 60px 0;
-    display: flex;
-    justify-content: space-between
-}
-
-.image-jour img {
-    width: 700px;
-    margin-left: 12%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.image-jour-content {
-    text-align: end;
-    margin-right: 12%;
-}
-
-.image-jour-content button {
-    margin: 40px 0;
-}
-
 
 /* Gris */
 
@@ -122,17 +89,4 @@ a {
     grid-column: 5/7;
     grid-row: 2/3;
 
-}
-
-h3,
-p {
-    margin: 0;
-}
-
-.actualites h2 {
-    margin-left: 12%;
-}
-
-.actualites {
-    padding-bottom: 50px;
 }
