@@ -1,6 +1,6 @@
 .banner {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
-        url(img/bannerspace.jpg);
+        url(/img/bannerspace.jpg);
     background-size: cover;
     height: 500px;
     display: flex;

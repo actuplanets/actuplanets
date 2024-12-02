@@ -1,3 +1,12 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -10,7 +19,7 @@ a {
     justify-content: start;
     align-items: center;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
-        url(img/bannerspace.jpg);
+        url(/img/bannerspace.jpg);
     background-size: cover;
     height: 500px;
 }
@@ -31,9 +40,222 @@ a {
 /* Section Actualités */
 
 .actualites {
+    display: flex;
+    justify-content: start;
     align-items: start;
+    flex-direction: column;
+    max-width: 1420px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 90%;
     background-color: white;
     color: black;
+}
+
+#actu_articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#filter_manage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#input_filter_all {
+    border: 20px double white;
+    text-wrap: nowrap;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+.custom-button input[type="checkbox"] {
+    display: none;
+}
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    box-sizing: border-box;
+    border: 20px double white;
+    border-radius: 10px;
+    min-width: 100%;
+}
+
+.inactive_input {
+    filter: brightness(0.5) blur(1px);
+}
+
+.button-text {
+    display: inline-block;
+    text-wrap: nowrap;
+    padding: 10px;
+}
+
+#filter_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 20px;
+    padding: 0;
+}
+
+#filter_cards li {
+    position: relative;
+    list-style-type: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#filter_cards .infos_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-top: 3px dashed #e02626;
+    position: relative;
+    overflow: hidden;
+}
+
+.infos_cards::after {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(224, 38, 38, 0.5);
+    z-index: 1;
+    transition: bottom 0.4s ease-in-out;
+}
+
+#filter_cards li:hover .infos_cards::after {
+    bottom: 0;
+}
+
+.infos_cards > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+#filter_cards li a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#filter_cards .infos_tags {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    margin: 0;
+    text-align: end;
+    box-sizing: border-box;
+}
+
+#filter_cards .tags_cards {
+    margin: 0;
+}
+
+#filter_cards img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+@media (max-width: 1100px) {
+    #filter_manage {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        gap: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #filter_cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 20px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    #filter_manage {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        gap: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #filter_cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 20px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 630px) {
+    #filter_manage {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        gap: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #filter_cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 20px;
+        padding: 0;
+    }
+
+    #input_filter_all {
+        border: 10px double white;
+    }
+
+    .custom-button {
+        border: 10px double white;
+    }
+
+    .actualites {
+        width: 95%;
+    }
 }
 
 /* Section A propos */
@@ -44,11 +266,11 @@ a {
     align-items: center;
     height: 550px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
-        url(img/earthsurface.jpg);
+        url(/img/earthsurface.jpg);
         text-wrap: balance;
 }
 
-/* Gris */
+/* Grid */
 
 .grid-container {
     margin: auto;

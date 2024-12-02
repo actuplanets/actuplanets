@@ -5,7 +5,7 @@ main {
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
-    background-image: url(img/galaxie.jpg);
+    background-image: url(/img/galaxie.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -58,8 +58,9 @@ form button {
     width: 80%;
     height: 50px;
     border-radius: 10px;
-    border: none;
-    cursor: pointer
+    border: 3px solid transparent;
+    cursor: pointer;
+    padding: 10px;
 }
 
 @media (pointer: fine) {
@@ -78,9 +79,9 @@ form label {
     font-size: 1.25rem;
 }
 
-form button,form input,form textarea {
+form input,form textarea {
     margin-top: .5rem;
-    color: white;
+    color: black;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;

@@ -46,17 +46,48 @@ const articles = [
     },
 ]
 
+const articles_actu = [
+    {
+        "description": "L'exploration spatiale a toujours fasciné l'humanité. Alors que les missions lunaires et martiennes ont fait naître des rêves d'aventure interplanétaire...",
+        "url": "",
+        "src": "/img/earthsurface.jpg",
+        "alt": "earthsurface",
+        "title": "Voyage entre la Terre et la planète b2seomds",
+        "title2": "",
+        "tags": ["Exploration spatiale"],
+    },
+    {
+        "description": "b2seomds est une planète qui suscite un grand intérêt parmi les scientifiques et chercheurs. Découverte récemment, elle présente des caractéristiques...",
+        "url": "",
+        "src": "/img/exoplanet.jpg",
+        "alt": "exoplanet",
+        "title": "b2seomds, une nouvelle perspective",
+        "title2": "",
+        "tags": ["Enjeux et perspectives"],
+    },
+    {
+        "description": "Depuis sa découverte, la planète b2seomds fascine par sa diversité biologique et ses ressources naturelles abondantes. Située à des milliers d'années-lumière de...",
+        "url": "",
+        "src": "/img/Foret_luxuriante_sur_la_planete_B2SEOMDS_avec_des_arbres_geants_et_un_ciel_vibrant.jpg",
+        "alt": "Forêt luxuriante planète b2seomds",
+        "title": "b2seomds, un écosystème richissime",
+        "title2": "",
+        "tags": ["Vie sur b2seomds"],
+    },
+]
+
 document.addEventListener("DOMContentLoaded", () => {
     const filter_cards = document.getElementById("filter_cards");
     const tags_input = document.querySelectorAll(".input_filter_tags");
     const all_input = document.getElementById("input_filter_all");
+    const currentPage = window.location.pathname;
     let checked = new Set();
 
     if (filter_cards) {
-        create_cards()
+        currentPage.endsWith('/actualites/index.html') ? create_cards(articles) : create_cards(articles_actu);
     }
 
-    function create_cards() {
+    function create_cards(articles) {
         articles.forEach(article => {
             let cards = document.createElement("li");
             cards.className = "cards";
