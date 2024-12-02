@@ -66,6 +66,34 @@ button {
     border-radius: 5px;
 }
 
+/* --- Articles --- */
+
+.inactive_input {
+    filter: brightness(0.5) blur(1px);
+}
+
+.Exploration_spatiale {
+    background-color: purple;
+    color: white;
+}
+
+.Vie_sur_b2seomds {
+    background-color: green;
+}
+
+.Enjeux_et_perspectives {
+    background-color: #f0e10e;
+    color: black;
+}
+
+.Technologies_et_innovations {
+    background-color: #294dc1;
+}
+
+.Science_fiction_et_culture {
+    background-color: black;
+}
+
 /* Footer */
 
 hr {
