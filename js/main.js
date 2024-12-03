@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let checked = new Set();
 
     if (filter_cards) {
-        currentPage.endsWith('/actualites/index.html') ? create_cards(articles) : create_cards(articles_actu);
+        currentPage.endsWith('/actualites') ? create_cards(articles) : create_cards(articles_actu);
     }
 
     function create_cards(articles) {
