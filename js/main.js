@@ -1,7 +1,9 @@
+import { articles_pages } from './articles.min.js';
+
 const articles = [
     {
         "description": "L'exploration spatiale a toujours fasciné l'humanité. Alors que les missions lunaires et martiennes ont fait naître des rêves d'aventure interplanétaire...",
-        "url": "",
+        "url": "voyage-entre-la-terre-et-la-planète-b2seomds",
         "src": "/img/earthsurface.jpg",
         "alt": "earthsurface",
         "title": "Voyage entre la Terre et la planète b2seomds",
@@ -222,5 +224,29 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.style.display = "none";
             }
         });
+    }
+
+
+
+    // --- Créations des pages d'articles --- 
+
+    // Obtenez le dernier segment de l'URL (ex : 'templates')
+    const pathSegments = window.location.pathname.split("/");
+    const articleSlug = pathSegments[pathSegments.length - 1];
+
+    // Trouver l'article correspondant
+    const articles_page = articles_pages.find(a => a.slug === articleSlug);
+
+    if (articles_page) {
+        // Injecter les données dans le HTML
+        document.title = articles_page.title;
+        document.getElementById("article-title-heading").innerText = articles_page.title;
+        document.getElementById("article-meta").innerText = `Tags: ${articles_page.tags.join(", ")}`;
+        document.getElementById("article-image").src = articles_page.image;
+        document.getElementById("article-content").innerHTML = articles_page.content;
+        document.getElementById("article-author").innerText = articles_page.author;
+        document.getElementById("article-date").innerText = new Date(articles_page.date).toLocaleDateString();
+    } else {
+        document.body.innerHTML = "<p>Article not found.</p>";
     }
 });
