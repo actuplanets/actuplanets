@@ -6,7 +6,7 @@ export const articles_pages = [
         tags: ["Tech", "Innovation"],
         content: "<p>This is the content of Article 1.</p>",
         image: "img/BannerPlanet.png",
-        slug: "voyage-entre-la-terre-et-la-planète-b2seomds"
+        slug: "voyage-entre-la-terre-et-la-planete-b2seomds"
     },
     {
         title: "Article 2",
