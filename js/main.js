@@ -78,16 +78,19 @@ const articles_actu = [
 
 document.addEventListener("DOMContentLoaded", () => {
     const filter_cards = document.getElementById("filter_cards");
+    const filter_cards_actu = document.getElementById("filter_cards_actu");
     const tags_input = document.querySelectorAll(".input_filter_tags");
     const all_input = document.getElementById("input_filter_all");
     const currentPage = window.location.pathname;
     let checked = new Set();
 
     if (filter_cards) {
-        currentPage.endsWith('/actualites') ? create_cards(articles) : create_cards(articles_actu);
+        create_cards(articles, filter_cards);
+    } else if (filter_cards_actu) {
+        create_cards(articles_actu, filter_cards_actu);
     }
 
-    function create_cards(articles) {
+    function create_cards(articles, filter_cards) {
         articles.forEach(article => {
             let cards = document.createElement("li");
             cards.className = "cards";

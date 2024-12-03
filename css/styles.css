@@ -106,7 +106,7 @@ a {
     padding: 10px;
 }
 
-#filter_cards {
+#filter_cards, #filter_cards_actu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
@@ -114,7 +114,7 @@ a {
     padding: 0;
 }
 
-#filter_cards li {
+#filter_cards li, #filter_cards_actu li {
     position: relative;
     list-style-type: none;
     border: 3px solid black;
@@ -122,7 +122,7 @@ a {
     overflow: hidden;
 }
 
-#filter_cards .infos_cards {
+#filter_cards .infos_cards, #filter_cards_actu .infos_cards {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -147,7 +147,7 @@ a {
     transition: bottom 0.4s ease-in-out;
 }
 
-#filter_cards li:hover .infos_cards::after {
+#filter_cards li:hover .infos_cards::after, #filter_cards_actu li:hover .infos_cards::after {
     bottom: 0;
 }
 
@@ -157,7 +157,7 @@ a {
 }
 
 
-#filter_cards li a {
+#filter_cards li a, #filter_cards_actu li a {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -167,7 +167,7 @@ a {
     box-sizing: border-box;
 }
 
-#filter_cards .infos_tags {
+#filter_cards .infos_tags, #filter_cards_actu .infos_tags {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -179,11 +179,11 @@ a {
     box-sizing: border-box;
 }
 
-#filter_cards .tags_cards {
+#filter_cards .tags_cards, #filter_cards_actu .tags_cards {
     margin: 0;
 }
 
-#filter_cards img {
+#filter_cards img, #filter_cards_actu img {
     width: 100%;
     object-fit: cover;
     aspect-ratio: 16/9;
@@ -199,7 +199,7 @@ a {
         width: 100%;
         box-sizing: border-box;
     }
-    #filter_cards {
+    #filter_cards, #filter_cards_actu {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
@@ -218,7 +218,7 @@ a {
         width: 100%;
         box-sizing: border-box;
     }
-    #filter_cards {
+    #filter_cards, #filter_cards_actu {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
@@ -237,7 +237,7 @@ a {
         width: 100%;
         box-sizing: border-box;
     }
-    #filter_cards {
+    #filter_cards, #filter_cards_actu {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
