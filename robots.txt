@@ -1,1 +1,2 @@
+Sitemap: https://actuplanets.github.io/sitemap2.xml
 Sitemap: https://actuplanets.github.io/sitemap.xml
