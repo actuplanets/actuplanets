@@ -10,7 +10,7 @@ const articles = [
     },
     {
         "description": "b2seomds est une planète qui suscite un grand intérêt parmi les scientifiques et chercheurs. Découverte récemment, elle présente des caractéristiques...",
-        "url": "b2seomds-une-nouvelle-perspective",
+        "url": "articles/b2seomds-une-nouvelle-perspective",
         "src": "/img/exoplanet.jpg",
         "alt": "exoplanet",
         "title": "b2seomds, une nouvelle perspective",
@@ -58,7 +58,7 @@ const articles_actu = [
     },
     {
         "description": "b2seomds est une planète qui suscite un grand intérêt parmi les scientifiques et chercheurs. Découverte récemment, elle présente des caractéristiques...",
-        "url": "",
+        "url": "articles/b2seomds-une-nouvelle-perspective",
         "src": "/img/exoplanet.jpg",
         "alt": "exoplanet",
         "title": "b2seomds, une nouvelle perspective",

@@ -49,5 +49,12 @@
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://actuplanets.github.io/articles/b2seomds-une-nouvelle-perspective</loc>
+    <lastmod>2024-12-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
   
 </urlset>
