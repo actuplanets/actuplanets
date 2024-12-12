@@ -36,14 +36,15 @@ const articles = [
         "tags": ["Technologies et innovations"],
     },
     {
-        "description": "L'exploration spatiale nous pousse à nous interroger sur l'habitabilité des planètes au-delà de la Terre. Parmi elles, b2seomds, avec ses particularités fascinantes, est une...",
+        "description": "b2seomds ne se limite pas à une simple curiosité interstellaire. Avec ses caractéristiques uniques et son écosystème mystérieux, cette planète ouvre une voie passionnante pour la science. Les chercheurs du monde entier considèrent b2seomds comme une opportunité d’avancer dans de nombreux domaines scientifiques, de la biologie à l’astrophysique.",
         "url": "",
-        "src": "/img/Schema_illustrant_la_composition_de_latmosphere_de_B2SEOMDS.jpg",
+        "src": "/img/article6.jpg",
         "alt": "Schema illustrant la composition de l'atmosphere de la planète b2seomds",
-        "title": "Peut-on respirer sur b2seomds ?",
+        "title": "Les opportunités scientifiques de b2seomds",
         "title2": "",
-        "tags": ["Exploration spatiale"],
+        "tags": ["Science-fiction et culture"],
     },
+
 ]
 
 const articles_actu = [
