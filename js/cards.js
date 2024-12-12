@@ -37,7 +37,7 @@ const articles = [
     },
     {
         "description": "L'exploration spatiale nous pousse à nous interroger sur l'habitabilité des planètes au-delà de la Terre. Parmi elles, b2seomds, avec ses particularités fascinantes, est une...",
-        "url": "peut-on-respirer-sur-b2seomds",
+        "url": "articles/peut-on-respirer-sur-b2seomds",
         "src": "/img/Schema_illustrant_la_composition_de_latmosphere_de_B2SEOMDS.jpg",
         "alt": "Schema illustrant la composition de l'atmosphere de la planète b2seomds",
         "title": "Peut-on respirer sur b2seomds ?",
