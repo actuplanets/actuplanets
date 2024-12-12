@@ -150,7 +150,7 @@ export const articles_pages = [
             "</ul>\n" +
             "</aside>",
         "image": "/img/article6.2.jpg.jpg",
-        "slug": "b2seomds-une-nouvelle-perspective",
+        "slug": "les-opportunites-scientifiques-de-b2seomds",
         "metaDescription": "Découvrez b2seomds, une planète fascinante aux caractéristiques uniques qui pourrait révolutionner notre compréhension de l'univers et ouvrir de nouvelles voies à l'humanité."
     }
 ];
