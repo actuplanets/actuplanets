@@ -19,7 +19,7 @@ const articles = [
     },
     {
         "description": "Depuis sa découverte, la planète b2seomds fascine par sa diversité biologique et ses ressources naturelles abondantes. Située à des milliers d'années-lumière de...",
-        "url": "",
+        "url": "articles/b2seomds-un-ecosysteme-richissime",
         "src": "/img/Foret_luxuriante_sur_la_planete_B2SEOMDS_avec_des_arbres_geants_et_un_ciel_vibrant.jpg",
         "alt": "Forêt luxuriante planète b2seomds",
         "title": "b2seomds, un écosystème richissime",
