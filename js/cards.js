@@ -45,13 +45,22 @@ const articles = [
         "tags": ["Exploration spatiale"],
     },
     {
-        "description": "b2seomds ne se limite pas à une simple curiosité interstellaire. Avec ses caractéristiques uniques et son écosystème mystérieux, cette planète ouvre une voie passionnante pour la science. Les chercheurs du monde entier considèrent b2seomds comme une opportunité d’avancer dans de nombreux domaines scientifiques, de la biologie à l’astrophysique.",
+        "description": "b2seomds ne se limite pas à une simple curiosité interstellaire. Avec ses caractéristiques uniques et son écosystème mystérieux, cette planète ouvre une voie passionnante pour la science. Les chercheurs du monde entier considèrent b2seomds comme une opportunité d’avancer dans de nombreux domaines scientifiques, de la biologie à l’astrophysique...",
         "url": "articles/les-opportunites-scientifiques-de-b2seomds",
         "src": "/img/article6.jpg",
         "alt": "Schema illustrant la composition de l'atmosphere de la planète b2seomds",
         "title": "Les opportunités scientifiques de b2seomds",
         "title2": "",
         "tags": ["Science-fiction et culture"],
+    },
+    {
+        "description": "Atteindre une planète comme b2seomds, située à des années-lumière de la Terre, nécessite une révolution technologique. Les moteurs spatiaux traditionnels ne suffisent plus...",
+        "url": "articles/les-moteurs-du-futur-pour-atteindre-b2seomds",
+        "src": "/img/article7.jpg",
+        "alt": "Illustration d’un moteur ionique avancé pour l’exploration spatiale",
+        "title": "Les moteurs du futur pour atteindre b2seomds",
+        "title2": "",
+        "tags": ["Exploration spatiale"],
     },
     
 ]
