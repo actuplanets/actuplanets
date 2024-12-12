@@ -28,7 +28,7 @@ const articles = [
     },
     {
         "description": "Atteindre b2seomds, située à des années-lumière de notre système solaire, représente l'un des plus grands défis de l'humanité. Ce voyage titanesque n'a été rendu possible que grâce à...",
-        "url": "",
+        "url": "articles/les-technologies-derriere-le-voyage-vers-b2seomds",
         "src": "/img/Les_defis_technologiques_et_logistiques.jpg",
         "alt": "Les defis technologiques et logistiques de la planète b2seomds",
         "title": "Les technologies derrière le voyage vers b2seomds",
