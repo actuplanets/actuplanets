@@ -36,15 +36,6 @@ const articles = [
         "tags": ["Technologies et innovations"],
     },
     {
-        "description": "b2seomds ne se limite pas à une simple curiosité interstellaire. Avec ses caractéristiques uniques et son écosystème mystérieux, cette planète ouvre une voie passionnante pour la science. Les chercheurs du monde entier considèrent b2seomds comme une opportunité d’avancer dans de nombreux domaines scientifiques, de la biologie à l’astrophysique.",
-        "url": "articles/les-opportunites-scientifiques-de-b2seomds",
-        "src": "/img/article6.jpg",
-        "alt": "Schema illustrant la composition de l'atmosphere de la planète b2seomds",
-        "title": "Les opportunités scientifiques de b2seomds",
-        "title2": "",
-        "tags": ["Science-fiction et culture"],
-    },
-    {
         "description": "L'exploration spatiale nous pousse à nous interroger sur l'habitabilité des planètes au-delà de la Terre. Parmi elles, b2seomds, avec ses particularités fascinantes, est une...",
         "url": "",
         "src": "/img/Schema_illustrant_la_composition_de_latmosphere_de_B2SEOMDS.jpg",
@@ -53,6 +44,16 @@ const articles = [
         "title2": "",
         "tags": ["Exploration spatiale"],
     },
+    {
+        "description": "b2seomds ne se limite pas à une simple curiosité interstellaire. Avec ses caractéristiques uniques et son écosystème mystérieux, cette planète ouvre une voie passionnante pour la science. Les chercheurs du monde entier considèrent b2seomds comme une opportunité d’avancer dans de nombreux domaines scientifiques, de la biologie à l’astrophysique.",
+        "url": "articles/les-opportunites-scientifiques-de-b2seomds",
+        "src": "/img/article6.jpg",
+        "alt": "Schema illustrant la composition de l'atmosphere de la planète b2seomds",
+        "title": "Les opportunités scientifiques de b2seomds",
+        "title2": "",
+        "tags": ["Science-fiction et culture"],
+    },
+    
 ]
 
 const articles_actu = [
