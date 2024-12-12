@@ -149,7 +149,7 @@ export const articles_pages = [
             "<section>\n" +
             "<h3>Les propulseurs à fusion nucléaire</h3>\n" +
             "<p>Au cœur de cette aventure, les moteurs à fusion nucléaire ont joué un rôle central (Les moteurs du futur pour atteindre b2seomds). Ces moteurs exploitent la fusion de l’hydrogène pour générer une énergie colossale. Grâce à cette technologie, les vaisseaux spatiaux peuvent maintenir une vitesse constante proche de celle de la lumière.</p>\n" +
-            "<img src='/img/vaisseau_futuriste.jpg' alt='Vaisseau spatial futuriste propulsé par des moteurs lumineux dans l'espace' />\n" +
+            "<img src='/img/Vaisseau_spatial_futuriste_propulse_par_des_moteurs_lumineux_dans_lespace.jpg' alt='Vaisseau spatial futuriste propulsé par des moteurs lumineux dans l'espace' />\n" +
             "</section>\n" +
             "<section>\n" +
             "<h3>Le moteur seonium : une nouvelle ère énergétique</h3>\n" +
@@ -168,7 +168,7 @@ export const articles_pages = [
             "<section>\n" +
             "<h3>Des habitats autonomes</h3>\n" +
             "<p>Le vaisseau interstellaire SEO Explorer 1 a été conçu comme une ville flottante capable de subvenir aux besoins de ses occupants pendant des décennies. Les systèmes de recyclage avancés transforment l’eau, l’air et même les déchets organiques en ressources réutilisables.</p>\n" +
-            "<img src='/img/station_spatiale.jpg' alt='Une station spatiale avec des modules d'habitat autonomes et des panneaux solaires' />\n" +
+            "<img src='/img/Une_station_spatiale_avec_des_modules_dhabitat_autonomes_et_des_panneaux_solaires_3.jpg' alt='Une station spatiale avec des modules d'habitat autonomes et des panneaux solaires' />\n" +
             "</section>\n" +
             "<section>\n" +
             "<h3>La stase cryogénique</h3>\n" +
@@ -181,6 +181,49 @@ export const articles_pages = [
         "image": "/img/Les_defis_technologiques_et_logistiques.jpg",
         "slug": "les-technologies-derriere-le-voyage-vers-b2seomds",
         "metaDescription": "Découvrez les technologies révolutionnaires qui permettent à l'humanité d'explorer la planète b2seomds, située à des années-lumière : moteurs à fusion nucléaire, seonium, IA avancées, habitats autonomes et stase cryogénique. Un voyage interstellaire hors du commun !"
+    },
+    {
+        "title": "Peut-on respirer sur b2seomds ?",
+        "author": "John Doe",
+        "date": "2024-12-12",
+        "tag": "Exploration spatiale",
+        "content":
+            "<h2>Une atmosphère à déchiffrer</h2>\n" +
+            "<p>L’exploration spatiale nous pousse à nous interroger sur l’habitabilité des planètes au-delà de la Terre. Parmi elles, b2seomds, avec ses particularités fascinantes, est une cible privilégiée. Mais une question primordiale reste : pouvons-nous y respirer ?</p>\n" +
+            "<p>La composition de l’atmosphère de b2seomds intrigue les scientifiques depuis sa découverte (b2seomds, un écosystème richissime). Grâce aux données recueillies par les télescopes et les sondes, nous savons qu’elle contient des gaz tels que :</p>\n" +
+            "<ul>\n" +
+            "<li>X % d’oxygène : Un élément vital pour les humains, mais en quantité suffisante ?</li>\n" +
+            "<li>Y % de méthane : Un gaz qui, bien que toxique pour nous, pourrait indiquer une activité biologique.</li>\n" +
+            "<li>Z % d’azote et autres gaz rares : Essentiels pour comprendre la stabilité de l’environnement.</li>\n" +
+            "</ul>\n" +
+            "<p>Cette composition est toutefois loin d’être comparable à celle de la Terre, ce qui rend la respiration directe sans équipement impossible.</p>\n" +
+            "<img src='/img/Schema_illustrant_la_composition_de_latmosphere_de_B2SEOMDS.jpg' alt='Schéma illustrant la composition de l’atmosphère de B2SEOMDS' />\n" +
+            "<h2>Les dangers potentiels pour la vie humaine</h2>\n" +
+            "<section>\n" +
+            "<h3>Gaz toxiques et niveaux d’oxygène</h3>\n" +
+            "<p>Les analyses montrent que, malgré la présence d’oxygène, les gaz toxiques comme le méthane et le dioxyde de soufre rendent l’air irrespirable. L’exposition prolongée pourrait causer des dommages graves au système respiratoire humain.</p>\n" +
+            "</section>\n" +
+            "<section>\n" +
+            "<h3>Pression atmosphérique et gravité</h3>\n" +
+            "<p>La pression atmosphérique de b2seomds est un autre obstacle. Si elle est trop basse, les humains risqueraient une hypoxie sévère. Si elle est trop élevée, cela pourrait affecter les fonctions corporelles.</p>\n" +
+            "</section>\n" +
+            "<h2>Les solutions pour survivre</h2>\n" +
+            "<p>Face à ces défis, les chercheurs envisagent plusieurs solutions pour permettre une éventuelle présence humaine sur b2seomds :</p>\n" +
+            "<ul>\n" +
+            "<li>Créer des dômes hermétiques où l’atmosphère est entièrement contrôlée, imitant celle de la Terre.</li>\n" +
+            "<li>Développer des combinaisons autonomes capables de filtrer les gaz toxiques et de fournir un apport continu en oxygène.</li>\n" +
+            "<li>Terraformer la planète : Une option ambitieuse consistant à modifier l’atmosphère de b2seomds pour la rendre compatible avec la vie humaine.</li>\n" +
+            "</ul>\n" +
+            "<p>Ces innovations technologiques représentent autant de défis que d’opportunités pour les scientifiques (Les opportunités scientifiques de b2seomds).</p>\n" +
+            "<img src='/img/Illustration_dun_dome_hermetique_sur_B2SEOMDS_pour_proteger_les_humains.jpg' alt='Illustration d’un dôme hermétique sur B2SEOMDS pour protéger les humains' />\n" +
+            "<h2>Une planète riche mais exigeante</h2>\n" +
+            "<p>Bien que b2seomds possède un potentiel énorme pour l’exploration humaine, sa surface ne peut être arpentée sans précautions. La planète exige une adaptation de nos technologies pour surmonter ses obstacles environnementaux.</p>\n" +
+            "<p>En attendant, les données continues des sondes spatiales nous éclairent sur les conditions nécessaires pour transformer b2seomds en un refuge futur.</p>\n" +
+            "<h2>Conclusion : Un souffle d’espoir pour l’avenir ?</h2>\n" +
+            "<p>Si nous ne pouvons pas respirer sur b2seomds aujourd’hui, cela ne signifie pas que la planète est inutilisable pour l’humanité. Avec la recherche et l’innovation, elle pourrait devenir un pilier de notre avenir. Les scientifiques poursuivent leur quête pour révéler les secrets de cette planète fascinante.</p>",
+        "image": "/img/Schema_illustrant_la_composition_de_latmosphere_de_B2SEOMDS.jpg",
+        "slug": "peut-on-respirer-sur-b2seomds",
+        "metaDescription": "Découvrez les défis et opportunités de l'exploration de b2seomds, une planète fascinante avec une atmosphère unique, des ressources précieuses et un potentiel pour l'avenir de l'humanité. Quels obstacles restreignent son habitabilité et quelles solutions innovantes ouvrent la voie à une colonisation future ?"
     },
     {
         "title": "Les opportunités scientifiques de b2seomds",
