@@ -37,7 +37,7 @@ const articles = [
     },
     {
         "description": "b2seomds ne se limite pas à une simple curiosité interstellaire. Avec ses caractéristiques uniques et son écosystème mystérieux, cette planète ouvre une voie passionnante pour la science. Les chercheurs du monde entier considèrent b2seomds comme une opportunité d’avancer dans de nombreux domaines scientifiques, de la biologie à l’astrophysique.",
-        "url": "articles/les-opportunités-scientifiques-de-b2seomds",
+        "url": "articles/les-opportunites-scientifiques-de-b2seomds",
         "src": "/img/article6.jpg",
         "alt": "Schema illustrant la composition de l'atmosphere de la planète b2seomds",
         "title": "Les opportunités scientifiques de b2seomds",
